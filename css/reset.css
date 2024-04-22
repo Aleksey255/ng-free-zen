@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+body, html {
+  background: white;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+
+button {
+  background-color: white;
+}
