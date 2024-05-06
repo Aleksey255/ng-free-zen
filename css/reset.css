@@ -37,6 +37,7 @@ button {
 
 select {
   appearance: none;
+  background: none;
   border: none;
 }
 
