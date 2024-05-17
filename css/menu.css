@@ -1,4 +1,16 @@
 .menu {
   display: none;
+  background: #fff;
 }
-/* .menu__item {} */
+.menu__item {
+  padding: 24px 15px;
+  border-bottom: 1px solid #aaa;
+}
+
+.menu.active {
+  display: block;
+  position: fixed;
+  top: 50px;
+  left: 0;
+  right: 0;
+}
