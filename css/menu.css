@@ -4,6 +4,7 @@
 }
 .menu__item {
   padding: 24px 15px;
+  font-size: 24px;
   border-bottom: 1px solid #aaa;
 }
 
