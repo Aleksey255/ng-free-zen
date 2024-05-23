@@ -1,0 +1,35 @@
+.footer {
+  padding: 30px 15px;
+  color: #fff;
+  background: #484848;
+}
+
+.footer__wrapper {
+  display: grid;
+  gap: 30px;
+
+}
+
+.footer__columns {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.footer__info {
+  display: grid;
+  gap: 10px;
+}
+
+.footer__logo {
+  width: 216px;
+  height: 24px;
+}
+
+.footer__text {
+  font-size: 12px;
+}
+
+.footer__dev {
+  margin: 0 auto;
+}
