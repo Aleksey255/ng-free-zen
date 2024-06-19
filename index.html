@@ -14,15 +14,9 @@
     <link rel="stylesheet" href="css/cashback.css" />
     <link rel="stylesheet" href="css/footer.css" />
     <link rel="stylesheet" href="css/column.css" />
+    <link rel="stylesheet" href="css/modal-order.css" />
     <title>Zen</title>
   </head>
-
-<style>
-  .clients,
-  .modal{
-    display: none;
-  }
-</style>
 
   <body>
     <!-- Шапка сайта -->
@@ -311,7 +305,7 @@
       </div>
     </footer>
     <!-- Модальное окно -->
-    <div class="modal" id="modal">
+    <div class="modal active" id="modal">
       <div class="modal__body">
         <!-- Close -->
         <button class="modal__close" id="close">
@@ -320,7 +314,7 @@
         <!-- Title -->
         <h3 class="modal__title">Order a consultation</h3>
         <!-- Form -->
-        <form class="form" id="order">
+        <form class="form" id="order" style="display: none;">
           <!-- Name -->
           <label class="form__input">
             <span>Name</span>
@@ -339,7 +333,9 @@
           <!-- Connection -->
           <label class="form__select">
             <span>Connection</span>
+            <img src="assets/icons/form-arrow.svg" alt="arrow">
             <select id="connection">
+              <option value=""></option>
               <option value="telegram">Telegram</option>
               <option value="whatsapp">WhatsApp</option>
             </select>
